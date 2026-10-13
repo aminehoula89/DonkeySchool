@@ -1,0 +1,23 @@
+.hover-effect:hover {
+  opacity: 0.5;
+} 
+.hover-effect {
+  border-radius: 3px;
+}
+section:first-of-type img {
+  filter: grayscale(100%);
+}
+.menu-deroulant {
+  position: relative;
+}
+
+.sous-menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+}
+
+.menu-deroulant:hover .sous-menu {
+  display: block;
+}
