@@ -21,3 +21,15 @@ section:first-of-type img {
 .menu-deroulant:hover .sous-menu {
   display: block;
 }
+
+body {
+  background-color: #121212;
+  color: white;
+}
+
+@media (min-width: 601px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
